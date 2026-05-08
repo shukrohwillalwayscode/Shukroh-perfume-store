@@ -8,12 +8,12 @@ export const PERFUMES: PerfumeTypes[] = [
     price: "200",
   },
 
-  {
-    title: "Perf B",
-    description: "Sweet Smell",
-    img: "/public/images/product2.jpg",
-    price: "200",
-  },
+  // {
+  //   title: "Perf B",
+  //   description: "Sweet Smell",
+  //   img: "/public/images/product2.jpg",
+  //   price: "200",
+  // },
   {
     title: "Perf C",
     description: "Sweet Smell",

@@ -1,4 +1,3 @@
-import React from "react";
 import MobileNav from "./mobile-nav";
 
 const navbar = [

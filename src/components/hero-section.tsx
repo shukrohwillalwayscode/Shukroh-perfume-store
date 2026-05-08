@@ -1,4 +1,3 @@
-import React from "react";
 import heroImage from "../assets/heroPerfumeImg.jpg";
 export default function HeroSection() {
   return (

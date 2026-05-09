@@ -2,9 +2,9 @@ import MobileNav from "./mobile-nav";
 
 const navbar = [
   { nav: "HOME", link: "/" },
-  { nav: "PRODUCTS", link: "./product-section" },
-  { nav: "ABOUT US", link: "./message" },
-  { nav: "TESTIMONIALS", link: "./testimonials" },
+  { nav: "PRODUCTS", link: "#products" },
+  { nav: "ABOUT US", link: "#message" },
+  { nav: "TESTIMONIALS", link: "#testimonials" },
 ];
 
 export default function Navbar() {
@@ -16,7 +16,11 @@ export default function Navbar() {
 
         <div className="flex justify-between items-center gap-[20px] ">
           {navbar.map((items, i) => (
-            <a className="font-[700] text-[14px] text-[#000000]" key={i}>
+            <a
+              href={items.link}
+              className="font-[700] text-[14px] text-[#000000]"
+              key={i}
+            >
               {items.nav}{" "}
             </a>
           ))}

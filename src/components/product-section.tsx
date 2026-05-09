@@ -2,7 +2,7 @@ import { PERFUMES } from "../mockData/perfumes";
 
 export default function ProductSection() {
   return (
-    <div className="w-full space-y-[20px]">
+    <div id="products" className="w-full space-y-[20px]">
       <p className="font-[700] text-[30px] text-[#151515] text-center">
         PRODUCTS
       </p>

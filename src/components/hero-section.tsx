@@ -1,7 +1,10 @@
 import heroImage from "../assets/heroPerfumeImg.jpg";
 export default function HeroSection() {
   return (
-    <div className="w-full min-h-screen bg-black py-[100px] max-md:pt-[150px] ">
+    <div
+      id="/"
+      className="w-full min-h-screen bg-black py-[100px] max-md:pt-[150px] "
+    >
       <div className=" grid  grid-cols-1 lg:grid-cols-2 gap-[60px] max-md:gap-[40px] md:mt-[50px]">
         <section className=" flex justify-center items-center">
           <div className=" flex flex-col items-center gap-[50px]">

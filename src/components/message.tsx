@@ -4,6 +4,7 @@ import bgImage from "../assets/bg1.jpeg";
 export default function Message() {
   return (
     <div
+      id="message"
       style={{ backgroundImage: `url(${bgImage})` }}
       className="w-full h-[476.72px] bg-no-repeat bg-cover bg-center flex justify-center items-center"
     >

@@ -15,7 +15,10 @@ export function Testimonials() {
   }
 
   return (
-    <div className="py-[100px] max-md:py-[50px] flex justify-center items-center w-full">
+    <div
+      id="testimonials"
+      className="py-[100px] max-md:py-[50px] flex justify-center items-center w-full"
+    >
       <div className="w-[50%] max-md:w-full md:max-lg:w-full  flex justify-between items-center gap-[20px]">
         <SwitchBtn onClick={toReview1} img="/icons/LeftArrow.svg" />
 

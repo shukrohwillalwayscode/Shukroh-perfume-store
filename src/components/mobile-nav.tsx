@@ -2,7 +2,7 @@ export default function MobileNav() {
   return (
     <div className="w-full lg:hidden bg-white px-[20px] py-[40px] max-md:py-[30px] fixed z-50 flex justify-between items-center">
       <p className="font-[900] max-md:text-[20px] text-[25px] text-black">
-        PERFUME STORE
+        ASO PERFUME STORE
       </p>
 
       <svg

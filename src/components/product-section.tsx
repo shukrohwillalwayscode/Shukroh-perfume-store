@@ -4,7 +4,7 @@ export default function ProductSection() {
   return (
     <div className="w-full space-y-[20px]">
       <p className="font-[700] text-[30px] text-[#151515] text-center">
-        KILLER MERCH
+        PRODUCTS
       </p>
 
       <div className="w-full flex  gap-3    bg-white overflow-x-scroll overflow-y-hidden">

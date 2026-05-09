@@ -29,13 +29,13 @@ export default function Navbar() {
         <div className="flex items-center gap-[20px]">
           <button
             onClick={() => alert("Signin Here")}
-            className="rounded-[10px] p-[10px] hover:bg-blue-400 hover:border-0 hover:text-white  bg-white border border-black"
+            className="rounded-[10px] p-[10px] hover:bg-black hover:border-0 hover:text-white  bg-white border border-black"
           >
             SIGN UP
           </button>
           <button
             onClick={() => alert("Login Here")}
-            className="rounded-[10px]  bg-blue-900 text-white px-[20px] py-[10px]"
+            className="rounded-[10px]  bg-black text-white hover:bg-white hover:text-black hover:border px-[20px] py-[10px]"
           >
             LOGIN
           </button>
